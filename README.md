@@ -4,7 +4,7 @@
 
 **2026-03-03**
 <br />
-1. https://github.com/LeeJiWon22/IP2026/blob/main/Tutorial1.ipynb<br />
+1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/Tutorial1.ipynb">Tutorial1.ipynb<br />
 
 **2026-03-04**
 <br />
