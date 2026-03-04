@@ -10,7 +10,7 @@
 <br />
 1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap121.ipynb">chap121<br />
 2. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap121.ipynb">chap121<br />
-3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/messi5.jpg">messi5<br />
+3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/messi5.jpg">messi5(img)<br />
 
 **2026-03-10**
 <br />
