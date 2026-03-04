@@ -7,9 +7,15 @@ https://github.com/LeeJiWon22/IP2026/blob/main/Tutorial1.ipynb
 <br />
 2026-03-04
 <br />
-
+https://github.com/LeeJiWon22/IP2026/blob/main/chap121.ipynb
 <br />
+https://github.com/LeeJiWon22/IP2026/blob/main/chap121.ipynb
 <br />
+https://github.com/LeeJiWon22/IP2026/blob/main/messi5.jpg
+<br />
+2026-03-10
+<br />
+2026-03-11
 <br />
 <br />
 
