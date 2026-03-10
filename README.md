@@ -18,8 +18,8 @@
 **2026-03-10**
 <br />
 1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap131.ipynb">chap131<br />
-2. <br />
-3. <br />
+2. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/Tutorial2.ipynb">Tutorial2.ipynb<br />
+3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/tutorial3.ipynb">Tutorial3.ipynb<br />
 
 **2026-03-11**
 <br />
