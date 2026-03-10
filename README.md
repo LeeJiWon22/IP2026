@@ -17,7 +17,7 @@
 
 **2026-03-10**
 <br />
-1. <br />
+1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap131.ipynb">chap131<br />
 2. <br />
 3. <br />
 
