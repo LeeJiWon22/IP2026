@@ -2,6 +2,10 @@
 
 
 
+**homework**
+<br />
+1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/Tutorial1.ipynb">homework1<br />
+
 **2026-03-03**
 <br />
 1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/Tutorial1.ipynb">Tutorial1<br />
