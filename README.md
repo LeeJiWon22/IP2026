@@ -40,7 +40,7 @@
 1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap143.ipynb">chap143<br />
 2. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/tutorial7.ipynb">Tutorial7<br />
 3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/tutorial8.ipynb">Tutorial8<br />
-4. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap144.ipynb">chap144<br />
+4. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap144kc.ipynb">chap144<br />
 
 **2026-03-18**
 <br />
