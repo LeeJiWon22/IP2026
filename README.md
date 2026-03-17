@@ -5,6 +5,8 @@
 **homework**
 <br />
 1. <a href="https://youtu.be/PravwZauaYA">homework1(유튜브 링크)<br />
+2. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework2.ipynb">homework2<br />
+3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework3.ipynb">homework3<br />
 
 **2026-03-03**
 <br />
