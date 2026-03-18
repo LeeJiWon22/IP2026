@@ -13,7 +13,7 @@ homework1(완)<br />
 <br />
 <br />
 ![이미지 설명](https://raw.githubusercontent.com/LeeJiWon22/IP2026/refs/heads/main/hw2img.png)<br />
-<a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework3.ipynb">homework3(완)<br />
+<a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework3.ipynb">homework3(완)(코드)<br />
 <br />
 <br />
 **Tutorial**
