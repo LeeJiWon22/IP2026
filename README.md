@@ -10,11 +10,12 @@ homework1(완)<br />
 <br />
 <br />
 <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework2.ipynb">homework2(미완)<br />
+<br />
+<br />
 ![이미지 설명](https://raw.githubusercontent.com/LeeJiWon22/IP2026/refs/heads/main/hw2img.png)<br />
-<br />
-<br />
 <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework3.ipynb">homework3(완)<br />
-
+<br />
+<br />
 **Tutorial**
 <br />
 1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/tutorial1.ipynb">Tutorial1<br />
