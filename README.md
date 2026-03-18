@@ -8,9 +8,17 @@
 2. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework2.ipynb">homework2(미완)<br />
 3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework3.ipynb">homework3(완)<br />
 
+**tutorial**
+<br />
+1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/Tutorial1.ipynb">Tutorial1<br />
+
 **2026-03-03**
 <br />
 1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/Tutorial1.ipynb">Tutorial1<br />
+2. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/Tutorial2.ipynb">Tutorial2<br />
+3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/tutorial3.ipynb">Tutorial3<br />
+4. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/tutorial5.ipynb">Tutorial5<br />
+5. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/tutorial6.ipynb">Tutorial6<br />
 
 **2026-03-04**
 <br />
