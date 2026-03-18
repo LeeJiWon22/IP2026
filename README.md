@@ -4,8 +4,9 @@
 
 **Homework**
 <br />
+homework1(완)<br />
 [![Watch the video](https://img.youtube.com/vi/PravwZauaYA/maxresdefault.jpg)](https://youtu.be/PravwZauaYA)
-1. <a href="https://youtu.be/PravwZauaYA">homework1(완)(유튜브 링크)<br />
+homework1(완)<br />
 2. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework2.ipynb">homework2(미완)<br />
 3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework3.ipynb">homework3(완)<br />
 
