@@ -11,6 +11,7 @@ homework1(완)<br />
 <br />
 <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework2.ipynb">homework2(미완)<br />
 [![Watch the video](https://img.youtu.be/kp5p2OHL9hc/maxresdefault.jpg)](https://youtu.be/kp5p2OHL9hc)
+[![Watch the video](https://img.youtube.com/vi/kp5p2OHL9hc/maxresdefault.jpg)](https://youtu.be/kp5p2OHL9hc)
 <br />
 <br />
 ![이미지 설명](https://raw.githubusercontent.com/LeeJiWon22/IP2026/refs/heads/main/hw2img.png)<br />
