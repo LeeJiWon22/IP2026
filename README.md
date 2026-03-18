@@ -7,9 +7,13 @@
 <br />
 homework1(완)<br />
 [![Watch the video](https://img.youtube.com/vi/PravwZauaYA/maxresdefault.jpg)](https://youtu.be/PravwZauaYA)
-2. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework2.ipynb">homework2(미완)<br />
+<br />
+<br />
+<a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework2.ipynb">homework2(미완)<br />
 ![이미지 설명](https://raw.githubusercontent.com/LeeJiWon22/IP2026/refs/heads/main/hw2img.png)<br />
-3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework3.ipynb">homework3(완)<br />
+<br />
+<br />
+<a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework3.ipynb">homework3(완)<br />
 
 **Tutorial**
 <br />
