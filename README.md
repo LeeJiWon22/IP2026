@@ -59,5 +59,6 @@ homework1(완)<br />
 <br />
 1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap146.ipynb">chap146<br />
 2. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap147.ipynb">chap147<br />
+3. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/chap149.ipynb">chap149<br />
 
 
