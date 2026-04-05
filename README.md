@@ -17,6 +17,11 @@ homework1(완)<br />
 <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework3.ipynb">homework3(완)(코드)<br />
 <br />
 <br />
+<a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework4.ipynb">homework4(완)<br />
+[![Watch the video](https://img.youtu.be/8uqJBkfnqYg/maxresdefault.jpg)](https://youtu.be/8uqJBkfnqYg)
+https://youtu.be/8uqJBkfnqYg
+<br />
+<br />
 **Tutorial**
 <br />
 1. <a href="https://github.com/LeeJiWon22/IP2026/blob/main/tutorial1.ipynb">Tutorial1<br />
