@@ -19,7 +19,6 @@ homework1(완)<br />
 <br />
 <a href="https://github.com/LeeJiWon22/IP2026/blob/main/homework4.ipynb">homework4(완)<br />
 [![Watch the video](https://img.youtube.com/vi/8uqJBkfnqYg/maxresdefault.jpg)](https://youtu.be/8uqJBkfnqYg)
-https://youtu.be/8uqJBkfnqYg
 <br />
 <br />
 **Tutorial**
