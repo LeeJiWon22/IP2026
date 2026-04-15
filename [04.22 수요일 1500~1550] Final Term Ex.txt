@@ -1,0 +1,125 @@
+[04.22 수요일 15:00~15:50] Final Term Exam 학기말고사 UIT #002
+
+1.4.7 Canny Edge Detection 
+https://blog.naver.com/jinsoo91zz/220511467500 
+https://blog.naver.com/jinsoo91zz/220511441402 
+https://github.com/leebyunggook/IP2022/blob/main/chap146.ipynb
+https://docs.opencv.org/4.x/d7/de1/tutorial_js_canny.html 
+edges = cv2.Canny(image, minVal, maxVal[,aperture_size])
+edges = cv2.Canny(gray,150,200,apertureSize=3)
+다음 실행결과를 이용하여 Canny Edge Detection에서 입력변수 minVal, maxVal[,aperture_size] 값들과 Hysteresis Thresholding에 대하여 설명하시오. 
+
+let src = cv.imread('canvasInput');
+let dst = new cv.Mat();
+cv.cvtColor(src, src, cv.COLOR_RGB2GRAY, 0);
+// You can try more different parameters
+cv.Canny(src, dst, 50, 100, 3, false); <- 50=min 100=max
+cv.imshow('canvasOutput', dst);
+src.delete(); dst.delete();
+
+즉 minVal=150, maxVal=200 
+Hysteresis Thresholding은
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.4.9 Contours in OpenCV (p.85~94) 
+https://fwanggu-lee.tistory.com/24 
+https://github.com/leebyunggook/IP2022/blob/master/chap149.ipynb 
+contours, hierarchy = cv2.findContours(closing, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+cnt = contours[9]
+epsilon = 0.01*cv2.arcLength(cnt,True) 
+approx = cv2.approxPolyDP(cnt,epsilon,True)
+다음 실행결과[11,14]를 이용하여 contours[9]에서 9의 의미와 epsilon = 0.01*cv2.arcLength(cnt,True) 값의 효과에 대하여 설명하시오.
+
+contours[9]=9번째 콘터 즉 9는 9번째
+epsilon = 0.01*cv2.arcLength(cnt,True)  숫자가 적을수록 섬세함, 점의 개수를 정함
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.4.10 Histograms in OpenCV (p.106~118)
+https://github.com/leebyunggook/IP2022/blob/main/chap1410.ipynb 
+Lecture 2. Intensity Transformation and Spatial Filtering (pdf)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.4.13 Hough Transformation 
+https://yihs.tistory.com/entry/CV2-Hough-Transform 
+https://github.com/leebyunggook/IP2022/blob/master/chap1413.ipynb 
+gray = cv2.imread('dsu7.jpg', 0)
+edges = cv2.Canny(gray,150,200,apertureSize=3)
+lines = cv2.HoughLines(edges,1,np.pi/180,100)
+cv2.HoughLines(image, rho, theta, threshold)
+- rho : real, [0,1], 의 단위.  값이 1이면 1 pixel 단위로 를 변화시키며 직선을 검출한다. 값이 작아질수록 더 세밀하게 직선을 검출한다.
+- theta : [0, 2), 단위. 값이 /180 이면, 의 탐색 grid를 1 radian 단위로 하여 직선을 검출한다. 따라서 theta 값이 작을수록 더 세밀하게 직선을 검출한다.
+- threshold : Hough space에서 직선이라고 정의할 값의 기준. threshold의 값이 작을수록 더 많은 직선을 검출한다.
+
+다음 실행결과를 이용하여 Hough Lines Detection의 역활과 Canny Edge 결과의 중요성 그리고 입력변수 rho, theta, threshold 값들에 대하여 설명하시오.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.5.2 Harris Corner Ditection 
+https://yuls-with-ai.tistory.com/243 
+https://velog.io/@byj5596/Canny%EC%97%A3%EC%A7%80%EC%99%80-Hough%EB%B3%80%ED%99%98 
+https://github.com/leebyunggook/IP2022/blob/master/chap152.ipynb 
+dst = cv2.cornerHarris(gray,2,3,0.04)   코너검출 k값은 보통 0.04
+cv2.cornerHarris(image,blockSize,ksize,k)
+ src : 입력 단일채널 8비트 또는 실수형 영상
+ blockSize : 코너 응답 함수 계산에서 고려할 이웃 픽셀 크기. 보통 2~5.
+ ksize : (미분을 위한) 소벨 연산자를 위한 커널 크기. 보통 3.
+ k : 해리스 코너 검출 상수 (보통 0.04~0.06)
+
+다음 실행결과를 이용하여 Harris Corner Detection의 기본 원리와 입력변수 blockSize,ksize,k 값들에 대하여 설명하시오
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.5.4 Introduction to SIFT(Scale-Invariant Feature Transform) (ppt)
+1.5.10 Feature Matching + Homography to find Objects
+https://velog.io/@kowoonho/SIFT-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98 
+https://github.com/leebyunggook/IP2022/blob/master/chap1510.ipynb 
+다음 실행결과를 참조하여 Multiple View Geometry의 원리와 SIFT알고리즘의 중요성에 대하여 설명하시오. Multiple View Geometry 
+
+헤리스코드는 시크에 대응 불가 SIFT는 대응 가능 중요성
+
+Multiple View Geometry는 여러 개의 카메라(또는 시점)로부터 얻은 2D 영상들을 이용해 3차원 공간의 구조와 카메라의 위치를 복원하는 기술을 말한다. 컴퓨터 비전, 로봇 비전, 3D 재구성 등에서 핵심적인 수학적 기반이 되는 이론이다.
+ 한 장의 영상(2D)은 3D 공간의 투영(projection)이다.
+ 두 장 이상의 영상이 주어지면, 서로 다른 시점에서 동일한 점이 보이므로 삼각측량(triangulation)을 통해 원래 3D 좌표를 복원할 수 있다.
+ 이를 위해 카메라 간의 기하학적 관계(epipolar geometry)를 모델링한다.
+Multiple View Geometry는 영상 간의 기하학적 관계를 이용하여 3D 구조를 복원하는 이론적 기반이다.
+
+SIFT는 이미지 내에서 스케일(크기), 회전, 밝기 변화에 불변한 특징점(feature point)을 추출하는 알고리즘이다. 1999년 David Lowe에 의해 제안되었으며, 이미지 매칭, 3D 재구성, SLAM 등 거의 모든 비전 시스템의 기반이 된다.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.7.1 Camera Calibration (pdf)
+1.7.2 Pose Estimation 
+https://darkpgmr.tistory.com/32 
+https://github.com/leebyunggook/IP2022/blob/master/chap171.ipynb 
+다음 실행결과를 참조하여 Camera Calibration에서 Internal, External Parameter에 대하여 설명하시오.
+
+External Parameter : Camera Calibration의 제일 첫 단계
+
+
+Camera Calibration(카메라 보정)은 카메라가 어떻게 3차원 세계를 2차원 영상으로 투영하는지를 수학적으로 모델링하는 과정이다. 이때 중요한 개념이 바로 내부 파라미터(Internal Parameters)와 외부 파라미터(External Parameters)이다.
+
+내부 파라미터는 카메라 자체의 물리적 특성을 나타내며, 카메라 내부에서 3D 점이 영상 평면(image plane)으로 어떻게 투영되는지를 정의한다. 즉, “카메라의 내부 구조”를 설명하는 요소들이다.
+ 초점 거리 (Focal length) - x축과 y축 방향의 초점 거리 (픽셀 단위).
+ 주점(Principal Point) - 이미지 중심, 즉 광축(optical axis)이 이미지 평면과 만나는 지점.
+ 왜곡 계수(Distortion Coefficients) - 
+ 방사 왜곡 (Radial Distortion): 렌즈의 곡률로 인해 직선이 휘어지는 현상.
+ 접선 왜곡 (Tangential Distortion): 렌즈와 센서가 완벽히 평행하지 않을 때 생기는 왜곡.
+
+외부 파라미터는 카메라가 세계 좌표계에서 어디에 있고, 어떤 방향을 바라보는지를 나타낸다. 즉, 카메라의 위치(position)와 자세(orientation)를 정의한다.
+ 회전 행렬 (Rotation Matrix, R) - 카메라의 자세(orientation)를 나타낸다.
+ 이동 벡터 (Translation Vector, t) - 카메라의 위치(position)를 나타낸다.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.7.3 Epipolar Geometry Multiple View Geometry p.56~
+https://alida.tistory.com/14 
+https://github.com/leebyunggook/IP2022/blob/master/chap173.ipynb 
+다음 실행결과를 참조하여 Epipolar Geometry에서 epipolar line(ㅁ_ㅁ)과 epipole(왼쪽 카메라에 매핑된 오른쪽 카메라 점)에 대하여 설명하시오.
+
+오른쪽 카메라라고 하는데 왼쪽임 다른 이미지가 오른쪽 이미지임
+
+계산 수식 존재 
